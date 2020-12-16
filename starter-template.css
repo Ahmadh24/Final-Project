@@ -1,0 +1,27 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#contactdetails{
+  text-align: center;
+}
+
+#productList{
+  text-align: center;
+}
+
+.productButton{
+  border: 2px solid black;
+}
+
+#productDetails{
+  align-items: center;
+}
+
+#loading{
+  text-align: center;
+}

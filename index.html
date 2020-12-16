@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>VG-House</title>
+
+    <!-- Bootstrap CDN  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Axios CDN  -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+
+    <script $(document).ready(getProductList())></script>
+
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.987.0" onload="getProductList();">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">VG-House</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Our Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+
+        <div class="starter-template">
+            <div class="div">
+                <h1>Welcome The VideoGame-House</h1>
+                <h4>We at VG-House take gaming seriously</h4>
+                <p>VG-House PC Computer Games, Video Game Consoles & Accessories from Sony, Microsoft, and Nintendo with
+                    fast shipping</p>
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="jumbotron">
+                <h1 class="display-4">About</h1>
+                <p class="lead">We turn your free time into enjoyable moments</p>
+                <hr class="my-4">
+                <p>We emerged in 2001 with the sole purpose of providing our clients the best quality products to get
+                    the maximum of the video gaming experience! </p>
+            </div>
+
+        </section>
+
+        <section id="products">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Our Products</h2>
+            <p class="text-center w-responsive mx-auto mb-5">Check below our list of top products. Click on the item to
+                get more details. <br> Happy Shopping!</p>
+            <div class="row" id="productList">
+                <div class="span6" style="float: none; margin: 0 auto;">
+                    <div id="loading">
+                        <h4>Loading Products ...</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span6" style="float: none; margin: 0 auto;">
+                        <div class="row" id="productDetails">
+                            </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contactus">
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+
+            <div class="row" id="contactdetails">
+                <div class="col">
+                    <h4>Location</h4>
+                    <p>New York City, ZIP Code 94126, USA</p>
+                </div>
+                <div class="col">
+                    <h4>Phone</h4>
+                    <p>+ 01 234 567 89</p>
+                </div>
+                <div class="col">
+                    <h4>Email</h4>
+                    <p>contact@vg-house.com</p>
+                </div>
+            </div>
+        </section>
+
+        <script src="starter-template.js"></script>
+    </main>
+</body>
+
+</html>
